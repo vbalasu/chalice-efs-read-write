@@ -1,0 +1,11 @@
+{
+  "version": "2.0",
+  "app_name": "chalice-efs-read-write",
+  "subnet_ids": ["subnet-3f47a602"],
+  "security_group_ids": ["sg-012ff960e95c3d0a1"],
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api"
+    }
+  }
+}
